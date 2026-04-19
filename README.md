@@ -1,67 +1,29 @@
-# Twitter Sentiment Analysis
+# KPI Analysis
 
-This project performs **sentiment analysis on Twitter data** using different machine learning and deep learning models.
+This repository contains a notebook developed as part of a course on **Key Performance Indicators (KPI)**.
 
-The objective is to compare classical models with transformer-based models for text classification.
+The objective of this notebook is to explore data and evaluate performance using different KPI metrics.
 
-## Project Overview
+## Key Performance Indicators (KPI)
 
-The notebook includes:
+The analysis focuses on several performance indicators used to evaluate model performance:
 
-* Data preprocessing and cleaning
-* Feature extraction
-* Model training and evaluation
-* Performance comparison between models
+* **Accuracy** – proportion of correct predictions
+* **Precision** – proportion of positive predictions that are correct
+* **Recall** – proportion of actual positives correctly identified
+* **F1 Score** – harmonic mean between precision and recall
 
-Models explored in this project:
-
-* Logistic Regression
-* Support Vector Machine (SVM)
-* DistilBERT (Transformer model)
+These KPIs help assess how well the models perform on the dataset.
 
 ## Repository Structure
 
 ```
 twitter-sentiment-analysis
 │
-├── KPI_2.ipynb          # Main notebook with the full experiment
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+├── KPI_2.ipynb        # Main notebook containing the analysis
+├── requirements.txt   # Python dependencies
+└── README.md          # Documentation
 ```
-
-## Installation
-
-Clone the repository:
-
-```
-git clone https://github.com/theodupontrieseg/twitter-sentiment-analysis.git
-cd twitter-sentiment-analysis
-```
-
-Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-## Usage
-
-Open the notebook:
-
-```
-jupyter notebook KPI_2.ipynb
-```
-
-Run all cells to reproduce the experiments.
-
-## Technologies
-
-* Python
-* Scikit-learn
-* HuggingFace Transformers
-* Pandas
-* NumPy
-* Matplotlib
 
 ## Author
 
