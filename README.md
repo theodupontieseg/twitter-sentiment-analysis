@@ -26,21 +26,17 @@ The analysis focuses on several performance indicators used to evaluate model pe
 
 The assignment evaluates sentiment classification using four different approaches:
 
----
 
 ### 1. Evaluation Against a Human-Annotated Dataset
 
 The model predictions are compared with a **human-labeled dataset**, which serves as the ground truth.  
 This allows us to measure how well the model replicates human judgment.
 
----
-
 ### 2. Evaluation Against a State-of-the-Art Model
 
 The performance of the trained model is compared with a **state-of-the-art baseline model**.  
 This comparison helps determine whether the implemented approach performs competitively with existing solutions.
 
----
 
 ### 3. Zero-Shot Classification with a Large Language Model (LLM)
 
@@ -54,8 +50,6 @@ The model is prompted to classify each tweet directly as:
 
 This method evaluates the capability of modern LLMs to perform classification **without task-specific training**.
 
----
-
 ### 4. Few-Shot Classification with an LLM
 
 In the few-shot setting, the LLM is first provided with **example texts** labeled as:
@@ -68,7 +62,6 @@ After seeing these examples, the model is asked to classify new tweets.
 
 This approach evaluates how providing **contextual examples** can improve LLM performance.
 
----
 
 ## Repository Structure
 
