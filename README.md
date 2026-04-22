@@ -20,7 +20,7 @@ These KPIs help assess how well the models perform on the dataset.
 ```
 twitter-sentiment-analysis
 │
-├── KPI_2.ipynb        # Main notebook containing the analysis
+├── KPI_2_fixed.ipynb        # Main notebook containing the analysis
 ├── requirements.txt   # Python dependencies
 └── README.md          # Documentation
 ```
